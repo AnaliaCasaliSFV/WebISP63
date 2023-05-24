@@ -1,0 +1,5 @@
+.copyright-bar a        { color: #a5a5a5 !important; transition-duration: .4s; }
+.copyright-bar a:hover  { color: #fff !important; }
+
+.inside-site-info		{ display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.footer-bar 			{ margin-bottom: 10px; }

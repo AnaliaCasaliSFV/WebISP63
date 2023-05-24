@@ -1,0 +1,53 @@
+/* links superiores */
+.infd_links                     { text-align: right; }
+.infd_links a                   { opacity: .6; display: inline-block; padding: 10px; font-size: .81rem; }
+.infd_links a:hover             { opacity: 1; }
+.ep_text_white .infd_links a:hover { background-color: rgba(0,0,0,.2); }
+.ep_text_white .infd_links a    { color: #fff; }
+.ep_text_black .infd_links a:hover { background-color: rgba(255,255,255,.5); }
+.ep_text_black .infd_links a    { color: #000; }
+.infd_links a.video-tutoriales {
+    color: #5688a6;
+    background-color: #fff;
+    opacity: 1;
+}
+.infd_links a.video-tutoriales:hover{
+    color: #fff;
+}
+@media only screen and (max-width : 768px) {
+    .infd_links     { text-align: center; }
+}
+@media only screen and (max-width : 435px) {
+    .infd_links a   { padding: 10px 5px; font-size: .7rem; }
+}
+
+/* noticias desde el portal */
+.noticias_redinfod              { padding: 40px 0 10px; background-color: #e2e2e2; }
+.noticias_redinfod h4           { text-align: center; font-size: 1.1rem; font-weight: bold; }
+.noticias_redinfod .lista       { display: flex; list-style: none; padding: 0; margin: 0; }
+.noticias_redinfod .lista li    { width: calc(100% / 3); box-sizing: border-box; }
+.noticias_redinfod .lista li:nth-child(1) { padding: 0 16px 0 0; }
+.noticias_redinfod .lista li:nth-child(2) { padding: 0 8px; }
+.noticias_redinfod .lista li:nth-child(3) { padding: 0 0 0 16px; }
+.noticias_redinfod .lista .noticia { overflow-wrap: break-word; }
+.noticias_redinfod header       { margin-bottom: 15px; }
+.noticias_redinfod .titulo      { margin-bottom: 0; font-size: 1.4rem; font-weight: bold; }
+.noticias_redinfod .fecha       { font-size: .85rem; color: rgba(0,0,0,.5); }
+
+@media only screen and (max-width : 767px) {
+    .noticias_redinfod .lista       { flex-wrap: wrap; }
+    .noticias_redinfod .lista li    { width: 100%;}
+    .noticias_redinfod .lista li:nth-child(1) { padding: 0 15px 0; }
+    .noticias_redinfod .lista li:nth-child(2) { padding: 0 15px 0; }
+    .noticias_redinfod .lista li:nth-child(3) { padding: 0 15px 0; }
+}
+
+/* logos al pie */
+.infd_logos     { border-top: 1px solid #e2e2e2; padding: 30px 10px; text-align: center; }
+.infd_logos a   { display: inline-block; margin-right: 20px; }
+.infd_logos a:last-child   { margin-right: 0; }
+.infd_logos a img   { display: inline-block; max-width: 100%; height: auto; }
+
+@media only screen and (max-width : 415px) {
+    .infd_logos a { display: block; margin-right: 0; margin-bottom: 10px; }
+}
