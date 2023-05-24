@@ -1,12 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-style:normal;
+}
+
+#vacio {
+    height: 11vh;
+
+}
+
+
 /*   seccion de buscador */
 #banner {
+
+    background-image: url(img/back.jpeg);
     height: 99vh;
     background-size: cover;
     background-position: center;
-    background-image: url(logoimg3.jpeg);
-
 }
-#buscar {
+
+.buscar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,46 +29,59 @@
     transform: translate(-50%, -50%);
     background: white;
     padding: 18px;
-    height: 50px;
-    width: 60%
-   
-    
+    height: 56px;
+
+    width: 700px;
+
+
+
 }
-#vacio{
-    height: 12vh;
-}
-#buscar_texto {
+
+.buscar_texto {
     border: none;
     background: none;
     outline: none;
     color: rgb(0, 0, 0);
     font-size: 20px;
     float: left;
-    line-height: 80px;
-   
+    line-height: 60px;
+
+
+
 }
-    
-#boton {
-    width: 50px;
-    height: 45px;
+
+.boton {
+    width: 40px;
+    height: 40px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 30px;
-    margin-left: 500px;
-    margin-top:0px;
-  
+    margin-left: 410px;
 }
+
+
+
+
 
 #logo {
-    border-radius: 100%;
-    width: 45px;
+    width: 53px;
     height: 50px;
 }
-
 
 #bar {
     background-color: blueviolet;
 }
+
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    text-shadow: 2px 2px 5px rgb(242, 241, 247);
+    color: white;
+}
+
+
 
 #fondo {
     width: 100%;
@@ -73,94 +99,38 @@
     margin-top: 6px;
     margin-left: 5px;
     margin-bottom: 5px;
+
+
 }
+
 #card-multi {
-   
+
     justify-content: center;
+
+
 }
 
 #sub {
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-#efec :hover{
+
+#efec :hover {
     font-size: 17px;
     text-decoration: underline;
-    
-}
-#nose{
-    height: 600px;
-    width: 1350px;
-}
-
-#tarjeta{
-    height: 500px;
-    width: 500px;
-}
-#fondo{
-    background-color: rgb(29, 29, 132);
-}
-#icono{
-    background-color: grey;
-    color: grey;}
-    
-#icono:hover{
-    color:blue;
-}
-#letra{
-    background-color: rgb(238, 238, 245);
-    text-shadow: 1px 1px 2px rgb(177, 172, 172);
-    
-}
-
-#colorid{
-    text-decoration-line: none;
-   color:rgb(0, 0, 0);
-}
-#colorid:hover{
-    color:rgb(14, 138, 255);
-}
-#estilohover:hover{
-   
-    
-    color:rgb(49, 21, 206);
-    background-color: rgb(201, 201, 201);
-}
-/* probando pantalla dividida*/
-.izquierda {
-
-   
-
-    width:50%;
-    height: 90vh;
 
 }
 
-.derecha {
-   
-    width: 50%;
-    height:90vh;
-
-}
-
-.pantallaDividida {
-    display: flex;
- 
-}
-.alinear{
+/*centrar tarjetas */
+#center {
     display: flex;
     justify-content: center;
-}
-.fondo{
-    background-image: url(img/software.jpg);
-}
+    width: 100%;
 
 
-#bg-left{
-    background-color: gray;
-    width: 20%;
-    
-    
+
+
 }
+
 .title {
     display: flex;
     justify-content: center;
@@ -173,3 +143,45 @@
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     color: white;
 }
+
+/* probando pantalla dividida*/
+.izquierda {
+
+ 
+   display: flex;
+   justify-content: center;
+
+    width:50%;
+    height: 90vh;
+
+}
+
+.derecha {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height:90vh;
+
+}
+
+.pantallaDividida {
+    display: flex;
+  
+ 
+}
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    background-image: url(img/software.jpg);
+}
+
+/*estilo tarjeta devidida alumno*/
+#bg-left{
+    background-color: gray;
+    width: 20%;
+    
+    
+}
+

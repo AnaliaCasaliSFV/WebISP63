@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* sitio desactivado */
+.sitio_disabled         { border: 2px solid red; border-right: none; border-left: none; padding: 8px 5px; text-align: center; font-size: .9rem; background-color: #d82e2e; color: #fff; }
+
+ /* logo y titulo por defecto */
+.inside-header          { display: flex; flex-wrap: wrap; align-items: center; }
+.site-branding          { width: 100%; }
+.site-header a          { display: block; width: 100%; text-align: center; }
+.site-header a > img    { display: block; margin: 0 auto; }
+.site-description       { text-align: center; }
+.header-widget 			{ order: 99; }
+
+/* logo y titulo alineados a la izquierda */
+@media screen and (min-width: 450px){
+    .ep_header_left .inside-header      { flex-wrap: nowrap; }
+    .ep_header_left .site-branding      { width: auto; }
+    .ep_header_left .site-header a      { width: auto; margin-right: 20px; margin-bottom: 0; text-align: left; }
+    .ep_header_left .site-description   { text-align: left; }
+	.ep_header_left .header-widget 		{ margin-left: auto; }
+}
+
+/* ocultar logo */
+.ep_title_hide .main-title      { display: none; }
+
+/* texto negro */
+.ep_text_black .main-title a,
+.ep_text_black .menu-item a,
+.ep_text_black .search-item a,
+.ep_text_black .navigation-search input[type="search"],
+.ep_text_black button.menu-toggle,
+.ep_text_black button.menu-toggle:hover,
+.ep_text_black button.menu-toggle:focus,
+.ep_text_black .main-navigation .mobile-bar-items a,
+.ep_text_black .main-navigation .mobile-bar-items a:hover,
+.ep_text_black .main-navigation .mobile-bar-items a:focus
+{ color: #000000 !important; }
+
+/* texto blanco */
+.ep_text_white .main-title a,
+.ep_text_white .menu-item a,
+.ep_text_white .search-item a,
+.ep_text_white .navigation-search input[type="search"],
+.ep_text_white button.menu-toggle,
+.ep_text_white button.menu-toggle:hover,
+.ep_text_white button.menu-toggle:focus,
+.ep_text_white .main-navigation .mobile-bar-items a,
+.ep_text_white .main-navigation .mobile-bar-items a:hover,
+.ep_text_white .main-navigation .mobile-bar-items a:focus
+{ color: #ffffff !important; }
+
+
