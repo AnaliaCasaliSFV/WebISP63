@@ -1,0 +1,116 @@
+/*   seccion de buscador */
+#banner {
+   
+    background-image: url(logo.jpeg);
+    height: 99vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 18px;
+    height: 56px;
+    width: auto;
+   
+
+
+}
+
+.buscar_texto {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    float: left;
+    line-height: 60px;
+    width:700px;
+    height: 600px;
+
+
+}
+
+
+
+.boton {
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+
+
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#bar {
+    background-color: blueviolet;
+}
+
+
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    text-shadow: 2px 2px 5px rgb(242, 241, 247);
+    color: white;
+}
+
+
+
+#fondo {
+    width: 100%;
+    margin-top: 81px;
+}
+
+#btn-buscar {
+    color: white;
+    border-color: white;
+
+}
+
+#card {
+
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+#card-multi {
+    justify-content: center;
+  
+
+}
+
+#sub {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+#efec :hover{
+    font-size: 17px;
+    text-decoration: underline;
+    transition: all.10S;
+    
+}
+#barra:hover{
+    
+    background-color: grey;
+    color: grey;
+}
+
