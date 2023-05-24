@@ -82,7 +82,7 @@
 #sub {
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-#efec :hover{
+#efec:hover{
     font-size: 17px;
     text-decoration: underline;
     
@@ -173,3 +173,4 @@
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     color: white;
 }
+
