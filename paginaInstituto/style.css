@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-style:normal;
+}
+
+#vacio {
+    height: 11vh;
+
+}
+
+
+/*   seccion de buscador */
+#banner {
+
+    background-image: url(img/back.jpeg);
+    height: 99vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 18px;
+    height: 56px;
+
+    width: 700px;
+
+
+
+}
+
+.buscar_texto {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+
+
+
+}
+
+.boton {
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 410px;
+}
+
+
+
+
+
+#logo {
+    width: 53px;
+    height: 50px;
+}
+
+#bar {
+    background-color: blueviolet;
+}
+
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    text-shadow: 2px 2px 5px rgb(242, 241, 247);
+    color: white;
+}
+
+
+
+#fondo {
+    width: 100%;
+    margin-top: 81px;
+}
+
+#btn-buscar {
+    color: white;
+    border-color: white;
+
+}
+
+#card {
+
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+#card-multi {
+
+    justify-content: center;
+
+
+}
+
+#sub {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+#efec :hover {
+    font-size: 17px;
+    text-decoration: underline;
+
+}
+
+/*centrar tarjetas */
+#center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+ background-color: rgb(67, 121, 230);
+    margin-top: -3px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
+#tex {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: white;
+}
+
+/* probando pantalla dividida*/
+.izquierda {
+
+ 
+   display: flex;
+   justify-content: center;
+
+    width:50%;
+    height: 90vh;
+
+}
+
+.derecha {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height:90vh;
+
+}
+
+.pantallaDividida {
+    display: flex;
+  
+ 
+}
+.alinear{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    background-image: url(img/software.jpg);
+}
+
+/*estilo tarjeta devidida alumno*/
+#bg-left{
+    background-color: gray;
+    width: 20%;
+    
+    
+}
+#icono:hover{
+    color:rgb(108, 118, 227);
+}
+/*estilo de video tecnicatura industrial*/
+iframe {
+    height: 500px;
+    width: 635px;
+}
+
+
